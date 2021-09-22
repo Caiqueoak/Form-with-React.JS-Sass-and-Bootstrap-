@@ -109,7 +109,6 @@ footer {
 	text-align: center;
 	font-weight: 700;
 	bottom: 2px;
-	display: none;
 }
 
 //Tablet/Desktop RESOLUTION
@@ -136,7 +135,7 @@ footer {
 			font-size: 3.8vw;
 		}
 		p {
-			font-size: 1.1rem;
+			font-size: 1.1rem !important;
 		}
 	}
 
