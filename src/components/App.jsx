@@ -8,7 +8,8 @@ const App = () => {
 		<React.Fragment>
 			<main
 				id="main-container"
-				className="d-md-flex flex-md-row align-items-md-center justify-content-between row"
+				className="d-md-flex flex-md-row align-items-md-center 
+				justify-content-center row"
 			>
 				{/*MAIN TEXT SECTION*/}
 				<section id="main-text" className="col-md-6">

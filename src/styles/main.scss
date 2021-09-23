@@ -6,13 +6,14 @@
 	@include centered-flex;
 	position: relative;
 	min-height: 100vh;
+	width: 100%;
 	padding: 87px 0 70px;
 	background: url("../images/bg-intro-mobile.png") $Red no-repeat;
 }
 
 // APP COMPONENT
 #main-container {
-	width: 100vw;
+	width: 100%;
 	min-width: 320px;
 	max-width: 1100px;
 }
@@ -124,7 +125,6 @@ footer {
 
 	// APP COMPONENT
 	#main-text {
-		color: white;
 		margin-bottom: 0;
 		margin-top: 20px;
 		@media (min-width: 1024px) {
@@ -135,8 +135,13 @@ footer {
 			font-size: 3.8vw;
 		}
 		p {
-			font-size: 1.1rem !important;
+			font-size: 1.1rem;
 		}
+	}
+
+	#button:hover {
+		background-color: hsl(154, 57%, 50%) !important;
+		font-size: 1.03rem;
 	}
 
 	// FORM COMPONENT

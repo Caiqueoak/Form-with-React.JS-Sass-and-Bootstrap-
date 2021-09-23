@@ -12,7 +12,7 @@ $Dark-Blue: hsl(249, 10%, 26%);
 $Grayish-Blue: hsl(246, 25%, 77%);
 $boxShadow: 0 7px 2px 0px rgba(0, 0, 0, 0.144);
 
-*{
+*, *::after, *::before{
   box-sizing: border-box;
 }
 
